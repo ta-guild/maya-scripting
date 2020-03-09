@@ -38,5 +38,7 @@ nav:
   - Home: 'index.md'
   - 'MEL':
     - '目次' : '01_Mel/index.md'
-  - Python: '/02_Python/'
-  - PySide: '/03_PySide/'
+  - Python:
+    - '目次' : '02_Python/index.md'
+  - PySide:
+    - '目次' : '03_PySide/index.md'
