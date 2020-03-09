@@ -1,0 +1,42 @@
+site_name: 'Maya Scripting'
+site_description: 'Maya Scripting document.'
+site_author: 'TA Guild'
+site_url: 'https://ta-guild.github.io/maya-scripting/'
+
+# Repository
+repo_name: 'ta-guild/maya-scripting'
+repo_url: 'https://github.com/ta-guild/maya-scripting'
+theme:
+  name: 'material'
+  palette:
+    primary: 'teal'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+extra:
+  search:
+    language: 'ja'
+  social:
+    - type: 'github'
+      link: 'https://github.com/ta-guild'
+    - type: 'twitter'
+      link: 'https://twitter.com/tm8r'
+markdown_extensions:
+  - admonition
+  - fontawesome_markdown
+  - pymdownx.emoji
+  - pymdownx.keys
+  - codehilite:
+      linenums: true
+      use_pygments: true
+      noclasses: true
+      pygments_style: monokai
+extra_css:
+    - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+nav:
+  - Home: 'index.md'
+  - 'MEL':
+    - '目次' : '01_Mel/index.md'
+  - Python: '/02_Python/'
+  - PySide: '/03_PySide/'
