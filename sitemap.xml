@@ -7,5 +7,13 @@
      <loc>https://ta-guild.github.io/maya-scripting/01_Mel/</loc>
      <lastmod>2020-03-10</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://ta-guild.github.io/maya-scripting/02_Python/</loc>
+     <lastmod>2020-03-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://ta-guild.github.io/maya-scripting/03_PySide/</loc>
+     <lastmod>2020-03-10</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>
